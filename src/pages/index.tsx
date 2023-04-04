@@ -25,15 +25,8 @@ const Home = (monsters: any) => {
     <HeaderComponent/>
 
       <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-              Bem vindo ao gerador de encontros para <strong>Ordem Paranormal RPG. </strong><br/>
-              Essa ferramenta foi desenvolvida para auxiliar mestres na hora de balancear os combates para seus jogadores.
-          </p>
-
-          <div>
-
-          </div>
+        <div>
+            <Select options={ monstersOptions }/>
         </div>
       </main>
       <FooterComponent/>
